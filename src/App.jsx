@@ -2,16 +2,16 @@ import React from 'react';
 import Sky from './components/Sky/Sky';
 import Sun from './components/Planets/00. Sun/Sun';
 import AmbientLight from './components/Lights/AmbientLight';
-import './App.css';
+import Camera from './components/Camera/Camera';
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <a-scene>
         <Sky />
         <Sun />
         <AmbientLight />
-        <a-entity camera look-controls wasd-controls position="0 0 10"></a-entity>
+        <Camera />
       </a-scene>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Camera1 = () => {
+const Camera = () => {
   return (
     <a-entity
       camera
@@ -11,4 +11,4 @@ const Camera1 = () => {
   );
 };
 
-export default Camera1;
+export default Camera;
