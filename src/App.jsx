@@ -3,6 +3,7 @@ import Sky from './components/Sky/Sky';
 import Sun from './components/Planets/00. Sun/Sun';
 import Mercury from './components/Planets/01. Mercury/Mercury';
 import AmbientLight from './components/Lights/AmbientLight';
+import PointLight from './components/Lights/PointLighting';
 import Camera from './components/Camera/Camera';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Sun />
         <Mercury />
         <AmbientLight />
-        <a-light type="point" intensity="50" position="0 0 0" color="#ffffff"></a-light>
+        <PointLight />
         <Camera />
       </a-scene>
     </div>
