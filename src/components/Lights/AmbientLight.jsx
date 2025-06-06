@@ -4,7 +4,8 @@ const AmbientLight = () => {
   return (
     <a-light
       type="ambient"
-      intensity="3"
+      intensity="5"
+      color="#FFFFFF"
     />
   );
 };
