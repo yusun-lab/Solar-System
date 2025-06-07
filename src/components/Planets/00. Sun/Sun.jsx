@@ -8,11 +8,11 @@ const Sun = () => {
       gltf-model={sunModel}
       // src={sunTexture}
       position="0 0 0"
-      scale="0.15 0.15 0.15"
+      scale="0.14 0.14 0.14"
       
       // radius="1.5"
       rotation="0 0 0"
-      animation="property: rotation; to: 0 360 0; loop: true; dur: 100000; easing: linear"
+      animation="property: rotation; to: 0 360 0; loop: true; dur: 200000; easing: linear"
     />
   );
 };

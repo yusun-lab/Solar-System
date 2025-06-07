@@ -5,7 +5,7 @@ const PointLight = () => {
     <a-light
       position="0 0 0"
       type="point"
-      intensity="50"
+      intensity="25"
       color="#FFFFFF"
     />
   );

@@ -9,7 +9,7 @@ const Mercury = () => {
       <a-entity
         gltf-model={mercuryModel}
         position="2 0 0"
-        scale="0.1 0.1 0.1"
+        scale="0.06 0.06 0.06"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 5000; easing: linear"
       >
       </a-entity>
