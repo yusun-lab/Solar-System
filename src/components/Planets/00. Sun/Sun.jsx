@@ -1,12 +1,16 @@
 import React from 'react';
-import sunTexture from '../../../assets/images/00. Sun.jpg';
+import sunModel from '../../../assets/models/00. Sun.glb';
+// import sunTexture from '../../../assets/images/00. Sun.jpg';
 
 const Sun = () => {
   return (
     <a-sphere
-      src={sunTexture}
+      gltf-model={sunModel}
+      // src={sunTexture}
       position="0 0 0"
-      radius="1.5"
+      scale="0.15 0.15 0.15"
+      
+      // radius="1.5"
       rotation="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 100000; easing: linear"
     />
