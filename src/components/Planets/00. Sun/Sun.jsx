@@ -6,7 +6,7 @@ const Sun = () => {
     <a-sphere
       src={sunTexture}
       position="0 0 0"
-      radius="3"
+      radius="1.5"
       rotation="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 100000; easing: linear"
     />
