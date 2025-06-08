@@ -7,7 +7,7 @@ const Sun = () => {
     <a-sphere
       gltf-model={sunModel}
       position="0 0 0"
-      scale="0.15 0.15 0.15"
+      scale="0.18 0.18 0.18"
       rotation="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 100000; easing: linear"
     />
