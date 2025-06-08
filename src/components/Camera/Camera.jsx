@@ -6,7 +6,7 @@ const Camera = () => {
       camera
       look-controls
       wasd-controls
-      position="0 4 45"
+      position="0 0 65"
     />
   );
 };
