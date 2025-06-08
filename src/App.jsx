@@ -3,7 +3,7 @@ import Sky from './components/Sky/Sky';
 import Sun from './components/Planets/00. Sun/Sun';
 import Mercury from './components/Planets/01. Mercury/Mercury';
 import Venus from './components/Planets/02. Venus/Venus';
-// import EarthAndMoon from './components/Planets/03. Earth&Moon/Earth&Moon';
+import EarthAndMoon from './components/Planets/03. Earth&Moon/Earth&Moon';
 import AmbientLight from './components/Lights/AmbientLight';
 import PointLight from './components/Lights/PointLight';
 import Camera from './components/Camera/Camera';
@@ -16,7 +16,7 @@ function App() {
         <Sun />
         <Mercury />
         <Venus />
-        {/* <EarthAndMoon /> */}
+        <EarthAndMoon />
         <AmbientLight />
         <PointLight />
         <Camera />
