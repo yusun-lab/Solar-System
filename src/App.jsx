@@ -33,6 +33,6 @@ function App() {
       </a-scene>
     </div>
   );
-} 
+}
 
 export default App;
