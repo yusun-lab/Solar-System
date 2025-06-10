@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sky from './components/Sky/Sky';
 import Sun from './components/Planets/00. Sun/Sun';
 import Mercury from './components/Planets/01. Mercury/Mercury';
@@ -12,8 +12,24 @@ import Neptune from './components/Planets/08. Neptune/Neptune';
 import AmbientLight from './components/Lights/AmbientLight';
 import PointLight from './components/Lights/PointLight';
 import Camera from './components/Camera/Camera';
+import PlanetInfo from './components/UI/PlanetInfo';
+import DistanceDetector from './components/Interaction/DistanceDetector';
 
 function App() {
+  const [selectedPlanet, setSelectedPlanet] = useState(null);
+
+  const handlePlanetDetected = (planetName) => {
+    setSelectedPlanet(planetName);
+  };
+
+  const handlePlanetLost = () => {
+    setSelectedPlanet(null);
+  };
+
+  const handleCloseInfo = () => {
+    setSelectedPlanet(null);
+  };
+
   return (
     <div className="app">
       <a-scene>
@@ -30,7 +46,17 @@ function App() {
         <AmbientLight />
         <PointLight />
         <Camera />
+        <DistanceDetector 
+          onPlanetDetected={handlePlanetDetected}
+          onPlanetLost={handlePlanetLost}
+        />
       </a-scene>
+      
+      <PlanetInfo 
+        planetName={selectedPlanet}
+        isVisible={!!selectedPlanet}
+        onClose={handleCloseInfo}
+      />
     </div>
   );
 }

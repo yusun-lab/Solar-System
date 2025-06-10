@@ -5,6 +5,7 @@ import sunModel from '../../../assets/models/00. Sun.glb';
 const Sun = () => {
   return (
     <a-sphere
+      data-planet="Sun"
       gltf-model={sunModel}
       position="0 0 0"
       scale="0.18 0.18 0.18"
