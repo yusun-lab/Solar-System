@@ -1,12 +1,40 @@
-# React + Vite
+# 🌌 Solar System - Interactive 3D Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive 3D solar system simulation built with React and A-Frame, featuring realistic planetary orbits and interactive planet information.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Realistic Orbits**: All planets follow accurate orbital mechanics
+- **Interactive Controls**: Space key to pause/resume, WASD to navigate
+- **Planet Information**: Automatic info display when approaching planets
+- **Background Music**: Star Wars theme with volume controls
+- **Earth-Moon System**: Complete system with synchronous rotation
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 🎮 Controls
+
+- **WASD**: Move camera
+- **Mouse**: Look around
+- **Space**: Pause/resume animations
+- **Approach planets**: View information automatically
+
+## 🛠️ Tech Stack
+
+- **React 18** + **Vite**
+- **A-Frame** for 3D graphics
+- **HTML5 Audio** for background music
+- **CSS3** for styling
+
+**Explore the cosmos from your browser! 🌌✨**
