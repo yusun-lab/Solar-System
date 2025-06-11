@@ -40,7 +40,7 @@ const DistanceDetector = ({ onPlanetDetected, onPlanetLost }) => {
           Math.pow(cameraPosition.z - actualPlanetPosition.z, 2)
         );
 
-        const threshold = 1;
+        const threshold = 5;
         
         if (distance < threshold && distance < closestDistance) {
           closestPlanet = planet.getAttribute('data-planet');

@@ -15,6 +15,7 @@ import Camera from './components/Camera/Camera';
 import PlanetInfo from './components/UI/PlanetInfo';
 import DistanceDetector from './components/Interaction/DistanceDetector';
 import AnimationController from './components/Controls/AnimationController';
+import BackgroundMusic from './components/Audio/BackgroundMusic';
 
 function App() {
   const [selectedPlanet, setSelectedPlanet] = useState(null);
@@ -60,6 +61,7 @@ function App() {
       />
       
       <AnimationController />
+      <BackgroundMusic />
     </div>
   );
 }
