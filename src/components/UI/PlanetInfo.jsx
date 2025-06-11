@@ -35,6 +35,14 @@ const PlanetInfo = ({ planetName, isVisible, onClose }) => {
       orbitalPeriod: '365.25 days',
       description: 'Our home planet and the only known planet with life in the universe.'
     },
+    'Moon': {
+      name: 'Moon',
+      type: 'Natural Satellite',
+      diameter: '3,474 km',
+      distance: '0.00257 AU',
+      orbitalPeriod: '27.32 days',
+      description: 'Earth\'s only natural satellite, the Moon has fascinated humans throughout history.'
+    },
     'Mars': {
       name: 'Mars',
       type: 'Terrestrial Planet',
