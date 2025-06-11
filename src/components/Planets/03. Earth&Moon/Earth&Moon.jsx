@@ -4,6 +4,7 @@ import earthModel from '../../../assets/models/03. Earth.glb';
 const EarthAndMoon = () => {
   return (
     <a-entity 
+      data-planet="Earth"
       position="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 36508; easing: linear">
       <a-entity

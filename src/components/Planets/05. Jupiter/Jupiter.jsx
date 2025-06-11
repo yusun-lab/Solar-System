@@ -4,6 +4,7 @@ import jupiterModel from '../../../assets/models/05. Jupiter.glb';
 const Jupiter = () => {
   return (
     <a-entity 
+      data-planet="Jupiter"
       position="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 433300; easing: linear">
       <a-entity

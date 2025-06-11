@@ -4,6 +4,7 @@ import uranusModel from '../../../assets/models/07. Uranus.glb';
 const Uranus = () => {
   return (
     <a-entity 
+      data-planet="Uranus"
       position="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 3068800; easing: linear">
       <a-entity

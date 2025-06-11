@@ -4,6 +4,7 @@ import saturnModel from '../../../assets/models/06. Saturn.glb';
 const Saturn = () => {
   return (
     <a-entity 
+      data-planet="Saturn"
       position="0 0 0"
       animation="property: rotation; to: 0 360 0; loop: true; dur: 1075900; easing: linear">
       <a-entity
