@@ -3,7 +3,7 @@ import Sky from './components/Sky/Sky';
 import Sun from './components/Planets/00. Sun/Sun';
 import Mercury from './components/Planets/01. Mercury/Mercury';
 import Venus from './components/Planets/02. Venus/Venus';
-import EarthAndMoon from './components/Planets/03. Earth&Moon/Earth&Moon';
+import EarthAndMoon from './components/Planets/03. EarthAndMoon/EarthAndMoon';
 import Mars from './components/Planets/04. Mars/Mars';
 import Jupiter from './components/Planets/05. Jupiter/Jupiter';
 import Saturn from './components/Planets/06. Saturn/Saturn';
@@ -13,18 +13,18 @@ import AmbientLight from './components/Lights/AmbientLight';
 import PointLight from './components/Lights/PointLight';
 import Camera from './components/Camera/Camera';
 import PlanetInfo from './components/UI/PlanetInfo';
-import DistanceDetector from './components/Interaction/DistanceDetector';
+import CursorDetector from './components/Interaction/CursorDetector';
 import AnimationController from './components/Controls/AnimationController';
 import BackgroundMusic from './components/Audio/BackgroundMusic';
 
 function App() {
   const [selectedPlanet, setSelectedPlanet] = useState(null);
 
-  const handlePlanetDetected = (planetName) => {
+  const handlePlanetHover = (planetName) => {
     setSelectedPlanet(planetName);
   };
 
-  const handlePlanetLost = () => {
+  const handlePlanetLeave = () => {
     setSelectedPlanet(null);
   };
 
@@ -48,9 +48,9 @@ function App() {
         <AmbientLight />
         <PointLight />
         <Camera />
-        <DistanceDetector 
-          onPlanetDetected={handlePlanetDetected}
-          onPlanetLost={handlePlanetLost}
+        <CursorDetector 
+          onPlanetHover={handlePlanetHover}
+          onPlanetLeave={handlePlanetLeave}
         />
       </a-scene>
       
