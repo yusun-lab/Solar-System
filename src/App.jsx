@@ -12,9 +12,9 @@ import Neptune from './components/Planets/08. Neptune/Neptune';
 import AmbientLight from './components/Lights/AmbientLight';
 import PointLight from './components/Lights/PointLight';
 import Camera from './components/Camera/Camera';
-import PlanetInfo from './components/UI/PlanetInfo';
+import PlanetInfo from './components/PlanetInfo/PlanetInfo';
 import CursorDetector from './components/Interaction/CursorDetector';
-import AnimationController from './components/Controls/AnimationController';
+import GuideAndAnimationController from './components/Controls/GuideAndAnimationController';
 import BackgroundMusic from './components/Audio/BackgroundMusic';
 
 function App() {
@@ -60,7 +60,7 @@ function App() {
         onClose={handleCloseInfo}
       />
       
-      <AnimationController />
+      <GuideAndAnimationController />
       <BackgroundMusic />
     </div>
   );

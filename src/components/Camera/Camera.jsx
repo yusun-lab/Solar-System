@@ -6,7 +6,7 @@ const Camera = () => {
       camera
       look-controls
       wasd-controls
-      position="0 0 100"
+      position="150 0 5"
     >
       <a-cursor 
         color="#4CAF50"

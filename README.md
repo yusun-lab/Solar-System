@@ -28,7 +28,7 @@ npm run build
 - **WASD**: Move camera
 - **Mouse**: Look around
 - **Space**: Pause/resume animations
-- **Approach planets**: View information automatically
+- **Target planets**: View information automatically
 
 ## 🛠️ Tech Stack
 
