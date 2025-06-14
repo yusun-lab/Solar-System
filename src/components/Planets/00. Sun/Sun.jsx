@@ -1,6 +1,4 @@
-import React from 'react';
 import sunModel from '../../../assets/models/00. Sun.glb';
-// import sunTexture from '../../../assets/images/00. Sun.jpg';
 
 const Sun = () => {
   return (

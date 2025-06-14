@@ -1,4 +1,3 @@
-import React from 'react';
 import earthModel from '../../../assets/models/03. Earth.glb';
 import moonModel from '../../../assets/models/Moon.glb';
 

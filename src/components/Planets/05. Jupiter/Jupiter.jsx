@@ -1,4 +1,3 @@
-import React from 'react';
 import jupiterModel from '../../../assets/models/05. Jupiter.glb';
 
 const Jupiter = () => {

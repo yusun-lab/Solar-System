@@ -1,4 +1,3 @@
-import React from 'react';
 import venusModel from '../../../assets/models/02. Venus.glb';
 
 const Venus = () => {

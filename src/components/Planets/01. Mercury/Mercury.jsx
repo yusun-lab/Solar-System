@@ -1,4 +1,3 @@
-import React from 'react';
 import mercuryModel from '../../../assets/models/01. Mercury.glb';
 
 const Mercury = () => {

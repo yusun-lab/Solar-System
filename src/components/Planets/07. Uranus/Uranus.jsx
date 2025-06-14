@@ -1,4 +1,3 @@
-import React from 'react';
 import uranusModel from '../../../assets/models/07. Uranus.glb';
 
 const Uranus = () => {

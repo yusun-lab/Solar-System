@@ -1,4 +1,3 @@
-import React from 'react';
 import marsModel from '../../../assets/models/04. Mars.glb';
 
 const Mars = () => {

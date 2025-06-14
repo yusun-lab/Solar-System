@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Sky from './components/Sky/Sky';
 import Sun from './components/Planets/00. Sun/Sun';
 import Mercury from './components/Planets/01. Mercury/Mercury';

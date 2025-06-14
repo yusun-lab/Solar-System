@@ -20,12 +20,12 @@ const BackgroundMusic = () => {
           setIsPlaying(true);
         } catch (error) {
           console.log('Auto-play prevented:', error);
-          // 如果自动播放失败，等待用户交互后再播放
+          // If auto-play fails, wait for user interaction to play
           const handleUserInteraction = async () => {
             try {
               await audio.play();
               setIsPlaying(true);
-              // 移除事件监听器
+              // Remove event listeners after successful play
               document.removeEventListener('click', handleUserInteraction);
               document.removeEventListener('keydown', handleUserInteraction);
             } catch (err) {
@@ -38,13 +38,14 @@ const BackgroundMusic = () => {
         }
       };
 
+      // Attempt to auto-play when the audio is ready
       audio.addEventListener('canplaythrough', attemptAutoPlay);
       
       if (audio.readyState >= 3) {
         attemptAutoPlay();
       }
 
-      // 监听播放状态
+      // Listen for playback state changes
       audio.addEventListener('play', () => setIsPlaying(true));
       audio.addEventListener('pause', () => setIsPlaying(false));
       audio.addEventListener('ended', () => setIsPlaying(false));
@@ -126,4 +127,4 @@ const BackgroundMusic = () => {
   );
 };
 
-export default BackgroundMusic; 
+export default BackgroundMusic;

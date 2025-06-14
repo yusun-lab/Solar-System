@@ -1,4 +1,3 @@
-import React from 'react';
 import skyTexture from '../../assets/images/Sky.jpg';
 
 const Sky = () => {

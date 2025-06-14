@@ -1,4 +1,3 @@
-import React from 'react';
 import saturnModel from '../../../assets/models/06. Saturn.glb';
 
 const Saturn = () => {

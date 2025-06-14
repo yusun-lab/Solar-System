@@ -1,4 +1,3 @@
-import React from 'react';
 import neptuneModel from '../../../assets/models/08. Neptune.glb';
 
 const Neptune = () => {

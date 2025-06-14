@@ -1,4 +1,3 @@
-import React from 'react';
 import './PlanetInfo.css';
 
 const PlanetInfo = ({ planetName, isVisible, onClose }) => {
