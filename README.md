@@ -32,9 +32,10 @@ npm run build
 
 ## 🛠️ Tech Stack
 
-- **React 18** + **Vite**
+- **React** + **Vite**
 - **A-Frame** for 3D graphics
 - **HTML5 Audio** for background music
 - **CSS3** for styling
+- **JavaScript** for interactivity and dynamic content
 
 **Explore the cosmos from your browser! 🌌✨**
