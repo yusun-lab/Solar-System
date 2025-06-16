@@ -1,12 +1,12 @@
 # 🌌 Solar System - Interactive 3D Experience
 
-An immersive 3D solar system simulation built with React and A-Frame, featuring realistic planetary orbits and interactive planet information.
+An immersive 3D solar system simulation built with React and A-Frame, featuring realistic planetary mechanics and interactive planet information.
 
 ## ✨ Features
 
-- **Realistic Orbits**: All planets follow accurate orbital mechanics
+- **Realistic Orbits**: All planets follow accurate mechanics
 - **Interactive Controls**: Space key to pause/resume, WASD to navigate
-- **Planet Information**: Automatic info display when approaching planets
+- **Planet Information**: Automatic info display when targeting planets
 - **Background Music**: Star Wars theme with volume controls
 - **Earth-Moon System**: Complete system with synchronous rotation
 
